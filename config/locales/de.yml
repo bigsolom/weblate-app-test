@@ -1,0 +1,13 @@
+de:
+  hello: "Hallo Welt"
+  common: &common
+    key1: "Wert 1"
+    key2: "Wert 2"
+  views:
+    home:
+      title: "Startseite"
+      <<: *common
+    startpage:
+      title: "Startseite"
+      <<: *common
+  
